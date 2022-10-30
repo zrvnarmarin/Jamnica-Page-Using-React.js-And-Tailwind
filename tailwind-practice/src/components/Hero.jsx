@@ -15,7 +15,7 @@ const Hero = () => {
                 <ImageSlider slides={slides} />
             </div>
 
-            <div className='w-full bg-teal-100 flex justify-around items-center px-32 py-12'>
+            <div className='w-full bg-teal-100 flex justify-around items-center px-32 py-8'>
                 <p className='uppercase text-3xl font-bold tracking-normal text-teal-900'>
                     Zadnje vijesti iz Jamnice
                 </p>

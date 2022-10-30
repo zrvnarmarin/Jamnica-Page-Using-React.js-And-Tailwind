@@ -10,16 +10,6 @@ const slideStyles = {
   alignItems: 'flex-end'
 };
 
-const sliderStyles = {
-  position: "relative",
-  height: "100%",
-};
-
-const dotsContainerStyles = {
-  display: "flex",
-  justifyContent: "center"
-};
-
 const dotStyle = {
   margin: "0 10px",
   cursor: "pointer",
@@ -40,9 +30,9 @@ const ImageSlider = ({ slides }) => {
   };
 
   return (
-    <div style={sliderStyles}>
+    <div className='relative h-[100%]'>
       <div style={slideStylesWidthBackground}>
-        <div style={dotsContainerStyles}>
+        <div className='flex justify-center'>
             {slides.map((slide, slideIndex) => (
             <div
                 style={dotStyle}
