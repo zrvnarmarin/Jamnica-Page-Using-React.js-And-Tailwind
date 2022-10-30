@@ -1,14 +1,8 @@
 import React from 'react'
 import ImageSlider from './ImageSlider'
-import ImageOne from '../assets/image-1.jpg'
-import ImageTwo from '../assets/image-2.jpg'
+import { slides } from '../constants/index'
 
 const Hero = () => {
-    const slides = [
-        {url: ImageOne, title: 'beach'},
-        {url: ImageTwo, title: 'boat'},
-    ]
-    
     return (
         <div>
             <div className='w-full h-[750px] my-0 mx-auto'>
