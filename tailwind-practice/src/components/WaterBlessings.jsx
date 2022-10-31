@@ -3,7 +3,7 @@ import SearchIcon from '../assets/search.svg'
 
 const WaterBlessings = () => {
   return (
-    <div className='md:px-72 px-4 mt-20 bg-[#ebf4eb] flex flex-col items-center justify-center text-center mb-9'>
+    <div className='md:px-72 px-4 mt-20 bg-[#ebf4eb] flex flex-col items-center justify-center text-center'>
         <div className='my-16 text-4xl sm:text-6xl md:text-8xl font-extrabold text-[#ddebd2] font-poppins'>
             <p>Blagodati vode</p>
         </div>

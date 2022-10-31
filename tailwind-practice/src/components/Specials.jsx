@@ -7,7 +7,7 @@ import BaconIcon from '../assets/bacon.svg'
 const Specials = () => {
   return (
     <div className='flex flex-col sm:flex-row justify-around p-4 gap-4'>
-        <div className='flex flex-col sm:flex-row py-12 gap-6'>
+        <div className='flex flex-col sm:flex-row py-6 gap-6'>
 
             <div className='rounded-2xl'>
                 <img className='rounded-2xl w-full' src={Special} alt="specials" />
