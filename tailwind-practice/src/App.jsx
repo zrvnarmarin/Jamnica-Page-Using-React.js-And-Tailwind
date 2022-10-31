@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import OffersGrid from './components/OffersGrid'
 import WaterBlessings from './components/WaterBlessings'
+import Specials from './components/Specials'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <OffersGrid />
       <WaterBlessings />
+      <Specials />
     </div>
   )
 }
