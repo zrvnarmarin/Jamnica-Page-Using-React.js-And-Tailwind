@@ -9,8 +9,8 @@ const Hero = () => {
                 <ImageSlider slides={slides} />
             </div>
 
-            <div className='w-full bg-teal-100 flex justify-around items-center px-32 py-8'>
-                <p className='uppercase text-3xl font-bold tracking-normal text-teal-900'>
+            <div className='w-full bg-[#ebf4eb] flex flex-wrap gap-3 justify-around items-center md:px-32 md:py-8 py-4 px-4'>
+                <p className='uppercase text-3xl font-bold tracking-normal text-teal-900 text-center'>
                     Zadnje vijesti iz Jamnice
                 </p>
                 <button 
