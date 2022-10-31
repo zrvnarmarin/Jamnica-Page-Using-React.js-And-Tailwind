@@ -49,8 +49,10 @@ const Specials = () => {
                         Idi na recept
                     </button>
                     <p className='text-base flex items-center'>
-                        <span className='text-2xl px-2 text-red-600'>&#10230;</span>
-                        Pogledaj sve recepte
+                        <a href="#">
+                            <span className='text-2xl px-2 text-red-600'>&#10230;</span>
+                            Pogledaj sve recepte
+                        </a>
                     </p>
                 </div>
             </div>

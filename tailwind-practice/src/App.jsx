@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import OffersGrid from './components/OffersGrid'
 import WaterBlessings from './components/WaterBlessings'
 import Specials from './components/Specials'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <OffersGrid />
       <WaterBlessings />
       <Specials />
+      <Footer />
     </div>
   )
 }
